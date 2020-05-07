@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/lib/**/*.d.ts.map": {
+            "when": "$(basename)"
+        },
+        "**/lib/**/*.js": {
+            "when": "$(basename).d.ts"
+        },
+        "**/lib/**/*.js.map": {
+            "when": "$(basename)"
+        }
+    }
+}

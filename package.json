@@ -1,0 +1,32 @@
+{
+  "name": "@kendu/dev-server",
+  "version": "1.0.0",
+  "description": "Development Server for Kendu Applications",
+  "license": "ISC",
+  "private": true,
+  "author": {
+    "name": "Jorge Rojas López",
+    "email": "arq.rojas@khoadro.com"
+  },
+  "keywords": [
+    "kendu",
+    "server",
+    "development"
+  ],
+  "main": "./lib/server.js",
+  "typings": "./lib/server.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhan/kendu-dev-server.git"
+  },
+  "bin": {
+    "kendu-dev-server": "./bin/kendu-dev-server.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "typescript": "^3.8.3"
+  }
+}
